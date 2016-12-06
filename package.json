@@ -13,7 +13,7 @@
         "atom-workspace": "copy-to-folder-path:CopyToPath",
         "atom-workspace": "copy-to-folder-path:ConfigureCopyPath"
     },
-    "repository": "https://github.com/atom/copy-to-folder-path",
+    "repository": "https://github.com/OHM79/copy-to-folder-path.git",
     "license": "MIT",
     "engines": {
         "atom": ">=1.0.0 <2.0.0"
