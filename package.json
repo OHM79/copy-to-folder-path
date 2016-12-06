@@ -1,19 +1,22 @@
 {
-  "name": "copy-to-folder-path",
-  "main": "./lib/copy-to-folder-path",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
-  "activationCommands": {
-    "atom-workspace": "copy-to-folder-path:toggle",
-    "atom-workspace": "copy-to-folder-path:CopyToPath"
-  },
-  "repository": "https://github.com/atom/copy-to-folder-path",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {
-  }
+    "name": "copy-to-folder-path",
+    "main": "./lib/copy-to-folder-path",
+    "version": "0.0.0",
+    "dependencies": {
+        "fs-plus": "^2.1",
+        "mkdirp": "^0.3"
+    },
+    "description": "A short description of your package",
+    "keywords": [],
+    "activationCommands": {
+        "atom-workspace": "copy-to-folder-path:toggle",
+        "atom-workspace": "copy-to-folder-path:CopyToPath",
+        "atom-workspace": "copy-to-folder-path:ConfigureCopyPath"
+    },
+    "repository": "https://github.com/atom/copy-to-folder-path",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {}
 }

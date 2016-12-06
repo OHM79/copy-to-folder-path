@@ -3,10 +3,9 @@
         "atom-text-editor, .tree-view.full-menu .file": [{
             "label": "Copy To Folder Path",
             "submenu": [{
-                    "label": "Copy To Path",
-                    "command": "copy-to-folder-path:CopyToPath"
-                }
-            ]
+                "label": "Copy To Path",
+                "command": "copy-to-folder-path:CopyToPath"
+            }]
         }],
         ".tree-view.full-menu .header.list-item": [{
             "label": "Copy To Folder Path",
@@ -26,6 +25,10 @@
         "submenu": [{
             "label": "Copy to folder path",
             "submenu": [{
+                    "label": "Configure Copy Path",
+                    "command": "copy-to-folder-path:ConfigureCopyPath"
+                },
+                {
                     "label": "Copy To Path",
                     "command": "copy-to-folder-path:CopyToPath"
                 },
