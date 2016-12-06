@@ -2,10 +2,6 @@
     "name": "copy-to-folder-path",
     "main": "./lib/copy-to-folder-path",
     "version": "0.0.0",
-    "dependencies": {
-        "fs-plus": "^2.1",
-        "mkdirp": "^0.3"
-    },
     "description": "A short description of your package",
     "keywords": [],
     "activationCommands": {
@@ -18,5 +14,8 @@
     "engines": {
         "atom": ">=1.0.0 <2.0.0"
     },
-    "dependencies": {}
+    "dependencies": {
+        "fs-plus": "*",
+        "mkdirp": "*"
+    }
 }
