@@ -5,9 +5,7 @@
     "description": "A short description of your package",
     "keywords": [],
     "activationCommands": {
-        "atom-workspace": "copy-to-folder-path:toggle",
-        "atom-workspace": "copy-to-folder-path:CopyToPath",
-        "atom-workspace": "copy-to-folder-path:ConfigureCopyPath"
+        "atom-workspace": ["copy-to-folder-path:toggle", "copy-to-folder-path:ConfigureCopyPath", "copy-to-folder-path:CopyToPath"]
     },
     "repository": "https://github.com/OHM79/copy-to-folder-path.git",
     "license": "MIT",
@@ -17,5 +15,16 @@
     "dependencies": {
         "fs-plus": "*",
         "mkdirp": "*"
+    },
+
+    "configSchema": {
+        "app": {
+            "type": "string",
+            "default": "\\lib\\copy.cmd"
+        },
+        "configFileName": {
+            "type": "string",
+            "default": ".copy-to-folder-path.json"
+        }
     }
 }

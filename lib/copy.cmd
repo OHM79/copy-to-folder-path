@@ -1,3 +1,5 @@
+@echo off
+
 SET saveDirectry=%*
 net use %saveDirectry%
 
