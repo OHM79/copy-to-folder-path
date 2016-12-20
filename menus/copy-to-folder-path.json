@@ -31,10 +31,6 @@
                 {
                     "label": "Copy To Path",
                     "command": "copy-to-folder-path:CopyToPath"
-                },
-                {
-                    "label": "Toggle",
-                    "command": "copy-to-folder-path:toggle"
                 }
             ]
         }]

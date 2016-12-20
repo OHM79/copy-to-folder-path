@@ -1,5 +1,21 @@
-# copy-to-folder-path package
+# copy to folder path package
 
-A short description of your package.
+ツリービューに追加したプロジェクトフォルダごとに設定したフォルダパスにコピーするパッケージ
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
++ UNCパスにもコピー可能 そのため共有サーバへもコピー可能
+
+ + \\\\test\\folder → OK
+ + \\\\192.0.0.1\\folder → OK
+ + C:\\test\\folder
+
+
+
++ Configure Copy Path
+ + 保存先を設定するウインドウを表示する。
+ + .copy-to-folder-path.json でプロジェクトフォルダのルートに作成される。
+
+
++ Copy To Path
+ + .copy-to-folder-path.jsonで設定したフォルダへコピーを実施する。
+ + .copy-to-folder-path.jsonがない場合は保存先を設定するウインドウを表示する。
+ + プロジェクトフォルダの中のファイルを設定したフォルダのパスの中にコピーする。

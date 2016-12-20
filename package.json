@@ -2,7 +2,7 @@
     "name": "copy-to-folder-path",
     "main": "./lib/copy-to-folder-path",
     "version": "0.0.0",
-    "description": "A short description of your package",
+    "description": "プロジェクトフォルダごとに設定したフォルダパスへコピーする",
     "keywords": [],
     "activationCommands": {
         "atom-workspace": ["copy-to-folder-path:toggle", "copy-to-folder-path:ConfigureCopyPath", "copy-to-folder-path:CopyToPath"]
