@@ -6,7 +6,7 @@
 
  + \\\\test\\folder → OK
  + \\\\192.0.0.1\\folder → OK
- + C:\\test\\folder
+ + C:\\test\\folder → OK
 
 
 
