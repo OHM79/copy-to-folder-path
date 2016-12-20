@@ -11,3 +11,4 @@ xcopy /e /I /D /Y %~d0 %saveDirectry%
 net use %saveDirectry% /delete /y
 
 echo pause
+exit
