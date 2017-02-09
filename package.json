@@ -1,7 +1,7 @@
 {
   "name": "copy-to-folder-path",
   "main": "./lib/copy-to-folder-path",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "プロジェクトフォルダごとに設定したフォルダパスへコピーする",
   "keywords": [],
   "activationCommands": {
