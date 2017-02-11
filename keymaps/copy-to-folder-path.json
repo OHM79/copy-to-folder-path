@@ -1,5 +1,5 @@
 {
-  "atom-workspace": {
-    "ctrl-alt-d": "copy-to-folder-path:CopyToPath"
-  }
+    "atom-workspace, atom-text-editor ,menu": {
+        "ctrl-alt-d": "copy-to-folder-path:CopyToPath"
+    }
 }
