@@ -1,6 +1,6 @@
 @echo off
-
-SET saveDirectry=%*
+chcp 65001
+SET saveDirectry="%*"
 net use %saveDirectry%
 
 REM del /q /s %saveDirectry%
