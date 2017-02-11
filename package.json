@@ -1,32 +1,32 @@
 {
-    "name": "copy-to-folder-path",
-    "main": "./lib/copy-to-folder-path",
-    "version": "0.5.0",
-    "description": "プロジェクトフォルダごとに設定したフォルダパスへコピーする",
-    "keywords": [],
-    "activationCommands": {
-        "atom-workspace": [
-            "copy-to-folder-path:ConfigureCopyPath",
-            "copy-to-folder-path:CopyToPath"
-        ]
+  "name": "copy-to-folder-path",
+  "main": "./lib/copy-to-folder-path",
+  "version": "0.6.0",
+  "description": "プロジェクトフォルダごとに設定したフォルダパスへコピーする",
+  "keywords": [],
+  "activationCommands": {
+    "atom-workspace": [
+      "copy-to-folder-path:ConfigureCopyPath",
+      "copy-to-folder-path:CopyToPath"
+    ]
+  },
+  "repository": "https://github.com/OHM79/copy-to-folder-path.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "fs-plus": "*",
+    "mkdirp": "*"
+  },
+  "configSchema": {
+    "app": {
+      "type": "string",
+      "default": "\\lib\\copy.cmd"
     },
-    "repository": "https://github.com/OHM79/copy-to-folder-path.git",
-    "license": "MIT",
-    "engines": {
-        "atom": ">=1.0.0 <2.0.0"
-    },
-    "dependencies": {
-        "fs-plus": "*",
-        "mkdirp": "*"
-    },
-    "configSchema": {
-        "app": {
-            "type": "string",
-            "default": "\\lib\\copy.cmd"
-        },
-        "configFileName": {
-            "type": "string",
-            "default": ".copy-to-folder-path.json"
-        }
+    "configFileName": {
+      "type": "string",
+      "default": ".copy-to-folder-path.json"
     }
+  }
 }
