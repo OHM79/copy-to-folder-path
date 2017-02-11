@@ -6,7 +6,6 @@
   "keywords": [],
   "activationCommands": {
     "atom-workspace": [
-      "copy-to-folder-path:toggle",
       "copy-to-folder-path:ConfigureCopyPath",
       "copy-to-folder-path:CopyToPath"
     ]
